@@ -22,12 +22,14 @@ On the AWS console click on services and navigate to S3 dashboard.
 1. leave other default settings and click on the Create bucket button at the bottom of the page. 
 
 <br>
+
 ---
 
 ![Created bucket](./Created_bucket.png)
 
 ---
 <br>
+
 # Upload Website files to S3 Bucket
 
 
@@ -42,8 +44,10 @@ After uploading our files, we will Leave all other settings intact, scroll to th
 
 ---
 <br>
+
 ```bash
 click on the Close button to return to the Bucket dashboard
+
 ```
 
 # Configure our S3 bucket to host our webpages
@@ -98,12 +102,14 @@ http://soe2897.s3-website-us-east-1.amazonaws.com
 
 ```
 <br>
+
 ---
 
 ![website bucket endpoint](./bucket_endpoint.png)
 
 ---
 <br>
+
 # Creating a CloudFront Distribution
 
 Click on services and navigate to CloudFront dashboard. 
@@ -131,11 +137,13 @@ http://soe2897.s3-website-us-east-1.amazonaws.com
 
 Cloudfrond distribution created successfully. 
 <br>
+
 ---
 
 ![Cloudfrond distribution created successfully](./CloudFront.png)
 
 ---
+
 <br>
 Below is our distribution domain name;
 
@@ -144,12 +152,14 @@ https://d1q9lc8j5ljddt.cloudfront.net
 
 ```
 <br>
+
 ---
 
 ![distribution domain name](./CloudFrontReady.png)
 
 ---
 <br>
+
 # Confirm our website is live
 
 We now place our domain name on a browser to confirm our website is live.
@@ -157,6 +167,7 @@ We now place our domain name on a browser to confirm our website is live.
 As you can see from the image below our website is live
 
 <br>
+
 ---
 
 ![website is live](./website.png)
